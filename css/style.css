@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #11172f;
+  font-family: 'Mulish';
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.person-input {
+  padding: 10px;
+}
+
+.submit-person {
+  padding: 10px;
+}
+
+.cotainer-person {
+  display: flex;
+  justify-content: center;
+  color: #11172f;
+  position: relative;
+}
+
+
+.person {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 400px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.info-person {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.info-person h3 {
+  margin: 0 15px;
+  padding: 10px;
+}
+
+.info-person h3::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 24px;
+  left: 500px;
+} 
+
+.img-person {
+  width: 100%;
+}
+
+.container-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.status {
+  width: 7px;
+  height: 7px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+} 
+
+.status-paragraf {
+  margin: 2px;
+}
+
+.alive {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  flex-direction: column;
+}
